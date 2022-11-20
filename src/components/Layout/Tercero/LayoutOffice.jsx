@@ -1,5 +1,5 @@
-import ButtonCheckout from "../../Common/Button/Checkout/ButtonCheckout";
-import ButtonBack from "../../Common/Button/Back/ButtonBack";
+import ButtonCheckout from "../../Common/Button/ButtonCheckout";
+import ButtonBack from "../../Common/Button/ButtonBack";
 import Header from "../../Home/Header";
 import OfficePage from "../../Pages/OfficePage";
 

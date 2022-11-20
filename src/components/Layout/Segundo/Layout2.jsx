@@ -1,5 +1,5 @@
-import ButtonBackHome from "../../Common/Button/Back/ButtonBackHome";
-import ButtonNext from "../../Common/Button/Next/ButtonNext";
+import ButtonBackHome from "../../Common/Button/ButtonBackHome";
+import ButtonNext from "../../Common/Button/ButtonNext";
 import Header from "../../Home/Header";
 import Opciones from "../../Pages/Opciones/Opciones";
 

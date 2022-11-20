@@ -1,4 +1,4 @@
-import ButtonCheckout from "../../Common/Button/Checkout/ButtonCheckout";
+import ButtonCheckout from "../../Common/Button/ButtonCheckout";
 import Elementos from "../../Home/Elementos";
 import Header from "../../Home/Header";
 
