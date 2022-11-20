@@ -1,7 +1,7 @@
-import logo from '../../../assets/imgnav/logo.jpg';
-import lupa from '../../../assets/imgnav/lupa.png';
-import perfil from '../../../assets/imgnav/perfil.png';
-import carrito from '../../../assets/imgnav/carrito.png';
+import logo from '../../assets/imgnav/logo.jpg';
+import lupa from '../../assets/imgnav/lupa.png';
+import perfil from '../../assets/imgnav/perfil.png';
+import carrito from '../../assets/imgnav/carrito.png';
 
 const Header = () =>{
 const styles = {

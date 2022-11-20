@@ -1,11 +1,10 @@
-import teclado from "../../../assets/productos/teclado.jpg";
-import cpu from "../../../assets/productos/cpu.jpg";
-import rtx3070 from "../../../assets/productos/rtx3070.png";
-import nvmem2 from "../../../assets/productos/nvmem2.jpg";
-import gabinete from "../../../assets/productos/gabinete.jpg";
-import servicio from "../../../assets/productos/servicio.jpg";
+import teclado from "../../assets/productos/teclado.jpg";
+import cpu from "../../assets/productos/cpu.jpg";
+import rtx3070 from "../../assets/productos/rtx3070.png";
+import nvmem2 from "../../assets/productos/nvmem2.jpg";
+import gabinete from "../../assets/productos/gabinete.jpg";
+import servicio from "../../assets/productos/servicio.jpg";
 import React, { useState } from "react";
-import userEvent from "@testing-library/user-event";
 
 
 const Elementos = () =>{
