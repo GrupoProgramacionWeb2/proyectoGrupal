@@ -1,9 +1,9 @@
-import logo from '../../assets/imgnav/logo.jpg';
-import lupa from '../../assets/imgnav/lupa.png';
-import perfil from '../../assets/imgnav/perfil.png';
-import carrito from '../../assets/imgnav/carrito.png';
+import logo from '../../../assets/imgnav/logo.jpg';
+import lupa from '../../../assets/imgnav/lupa.png';
+import perfil from '../../../assets/imgnav/perfil.png';
+import carrito from '../../../assets/imgnav/carrito.png';
 
-const Header = () =>{
+const navBar = () => {
 const styles = {
     header: {
         backgroundColor: 'rgb(52, 63, 75)',
@@ -38,7 +38,7 @@ const styles = {
     }
 }
     return (
-        <header style={ styles.header }>
+        <div style={ styles.header }>
             <div>
                 <img style={ styles.img } src={ logo } alt="logo"/>
             </div>
@@ -56,8 +56,8 @@ const styles = {
                 <img style={ styles.img } src={ perfil } alt="perfil"/>
                 <img style={ styles.img } src={ carrito } alt="carrito"/>
             </div>
-        </header>
+        </div>
     )
 }
 
-export default Header;
+export default navBar;

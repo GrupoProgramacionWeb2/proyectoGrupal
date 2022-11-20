@@ -1,5 +1,3 @@
-
-
 const NotFound = () => {
     const styles = {
         error: {
