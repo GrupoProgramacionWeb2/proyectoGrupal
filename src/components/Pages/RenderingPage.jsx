@@ -1,14 +1,14 @@
-import cpuImage from "../../../assets/productos/cpu.jpg";
-import ramImage from "../../../assets/productos/ram.png";
-import gpuImage from "../../../assets/productos/gpu.jpg";
-import fuenteImage from "../../../assets/productos/fuente.jpg";
-import caseImage from "../../../assets/productos/case.jpg";
-import mbImage from "../../../assets/productos/mb.jpg";
-import soImage from "../../../assets/productos/so.png";
-import refrigeracionImage from "../../../assets/productos/refrigeracion.jpg";
-import CasePC from "../../../assets/productos/CasePCOffice.jpg";
+import cpuImage from "../../assets/productos/cpu.jpg";
+import ramImage from "../../assets/productos/ram.png";
+import gpuImage from "../../assets/productos/gpu.jpg";
+import fuenteImage from "../../assets/productos/fuente.jpg";
+import caseImage from "../../assets/productos/case.jpg";
+import mbImage from "../../assets/productos/mb.jpg";
+import soImage from "../../assets/productos/so.png";
+import refrigeracionImage from "../../assets/productos/refrigeracion.jpg";
+import CasePC from "../../assets/productos/CasePCRendering.jpg";
 
-const OfficePage = () => {
+const RenderingPage = () => {
     const styles = {
         containerUp: {
             display: 'flex',
@@ -58,55 +58,54 @@ const OfficePage = () => {
                 <div style={styles.containerLeft}>
                     <img style={styles.imgCase} src={CasePC} />
                     <div style={styles.detalles}>
-                    <p>Components price: $505</p>
+                    <p>Components price: $1413</p>
                     <p>Build price: $99</p>
                     </div>
                 </div>
                 <div style={styles.containerRight}>
                 <div style={styles.box}>
                     <img style={styles.img} src={cpuImage}/>
-                    <p>AMD Ryzen 2400g</p>
-                    <p>$50</p>
+                    <p>Intel i7 12000f</p>
+                    <p>$450</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={ramImage}/>
-                    <p>Gigabyte 8gb x1 2500hz</p>
-                    <p>$25</p>
+                    <p>Nst 64gbx2 3800hz</p>
+                    <p>$120</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={gpuImage}/>
-                    <p>Nvidia gtx980 4vram</p>
-                    <p>$250</p>
+                    <p>ZOTAC rtx 3090ti</p>
+                    <p>$560</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={fuenteImage}/>
-                    <p>Gigabyte 250hd</p>
-                    <p>$45</p>
+                    <p>Gigabyte HF850 gold</p>
+                    <p>$80</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={caseImage}/>
-                    <p>Office Case</p>
-                    <p>$25</p>
+                    <p>Rendering Case</p>
+                    <p>$56</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={mbImage}/>
-                    <p>ASUS x270 AM4</p>
-                    <p>$50</p>
+                    <p>ASUS z270</p>
+                    <p>$60</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={soImage}/>
-                    <p>Windows XP</p>
-                    <p>$10</p>
+                    <p>Windows 10 pro</p>
+                    <p>$20</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={refrigeracionImage}/>
-                    <p>AirGeneric</p>
-                    <p>$50</p>
+                    <p>CoolerMaster HY564</p>
+                    <p>$67</p>
                 </div>
                 </div>
             </div>
         )
-    
 }
 
-export default OfficePage
+export default RenderingPage

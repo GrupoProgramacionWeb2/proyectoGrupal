@@ -1,7 +1,7 @@
 import ButtonBackHome from "../../Common/Button/ButtonBackHome";
 import ButtonNext from "../../Common/Button/ButtonNext";
 import Header from "../../Home/Header";
-import Opciones from "../../Pages/Opciones/Opciones";
+import Opciones from "../../Pages/Opciones";
 
 const Layout2 = () =>{
     const styles = {

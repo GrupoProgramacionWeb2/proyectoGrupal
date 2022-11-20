@@ -1,14 +1,14 @@
-import cpuImage from "../../../assets/productos/cpu.jpg";
-import ramImage from "../../../assets/productos/ram.png";
-import gpuImage from "../../../assets/productos/gpu.jpg";
-import fuenteImage from "../../../assets/productos/fuente.jpg";
-import caseImage from "../../../assets/productos/case.jpg";
-import mbImage from "../../../assets/productos/mb.jpg";
-import soImage from "../../../assets/productos/so.png";
-import refrigeracionImage from "../../../assets/productos/refrigeracion.jpg";
-import CasePC from "../../../assets/productos/CasePCRendering.jpg";
+import cpuImage from "../../assets/productos/cpu.jpg";
+import ramImage from "../../assets/productos/ram.png";
+import gpuImage from "../../assets/productos/gpu.jpg";
+import fuenteImage from "../../assets/productos/fuente.jpg";
+import caseImage from "../../assets/productos/case.jpg";
+import mbImage from "../../assets/productos/mb.jpg";
+import soImage from "../../assets/productos/so.png";
+import refrigeracionImage from "../../assets/productos/refrigeracion.jpg";
+import CasePC from "../../assets/productos/CasePCDesign.jpg";
 
-const RenderingPage = () => {
+const DesignPage = () => {
     const styles = {
         containerUp: {
             display: 'flex',
@@ -58,54 +58,54 @@ const RenderingPage = () => {
                 <div style={styles.containerLeft}>
                     <img style={styles.imgCase} src={CasePC} />
                     <div style={styles.detalles}>
-                    <p>Components price: $1413</p>
+                    <p>Components price: $2755.50</p>
                     <p>Build price: $99</p>
                     </div>
                 </div>
                 <div style={styles.containerRight}>
                 <div style={styles.box}>
                     <img style={styles.img} src={cpuImage}/>
-                    <p>Intel i7 12000f</p>
-                    <p>$450</p>
+                    <p>AMD Ryzen 7950x</p>
+                    <p>$599</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={ramImage}/>
-                    <p>Nst 64gbx2 3800hz</p>
-                    <p>$120</p>
+                    <p>Gigabyte 32gb x4 3600hz</p>
+                    <p>$280</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={gpuImage}/>
-                    <p>ZOTAC rtx 3090ti</p>
-                    <p>$560</p>
+                    <p>Nvidia Quadro</p>
+                    <p>$800</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={fuenteImage}/>
-                    <p>Gigabyte HF850 gold</p>
-                    <p>$80</p>
+                    <p>Corsair CX1200w</p>
+                    <p>$450</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={caseImage}/>
-                    <p>Rendering Case</p>
-                    <p>$56</p>
+                    <p>Desing PC case</p>
+                    <p>$50</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={mbImage}/>
-                    <p>ASUS z270</p>
-                    <p>$60</p>
+                    <p>ASUS x570 AM5</p>
+                    <p>$450</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={soImage}/>
-                    <p>Windows 10 pro</p>
-                    <p>$20</p>
+                    <p>Windows 11 pro</p>
+                    <p>$29.5</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={refrigeracionImage}/>
-                    <p>CoolerMaster HY564</p>
-                    <p>$67</p>
+                    <p>Desing refrigeration</p>
+                    <p>$97</p>
                 </div>
                 </div>
             </div>
         )
 }
 
-export default RenderingPage
+export default DesignPage

@@ -1,18 +1,18 @@
-import cpuImage from "../../../assets/productos/cpu.jpg";
-import ramImage from "../../../assets/productos/ram.png";
-import gpuImage from "../../../assets/productos/gpu.jpg";
-import fuenteImage from "../../../assets/productos/fuente.jpg";
-import caseImage from "../../../assets/productos/case.jpg";
-import mbImage from "../../../assets/productos/mb.jpg";
-import soImage from "../../../assets/productos/so.png";
-import refrigeracionImage from "../../../assets/productos/refrigeracion.jpg";
-import CasePC from "../../../assets/productos/CasePCDesign.jpg";
+import cpuImage from "../../assets/productos/cpu.jpg";
+import ramImage from "../../assets/productos/ram.png";
+import gpuImage from "../../assets/productos/gpu.jpg";
+import fuenteImage from "../../assets/productos/fuente.jpg";
+import caseImage from "../../assets/productos/case.jpg";
+import mbImage from "../../assets/productos/mb.jpg";
+import soImage from "../../assets/productos/so.png";
+import refrigeracionImage from "../../assets/productos/refrigeracion.jpg";
+import CasePC from "../../assets/productos/CasePC.jpg";
 
-const DesignPage = () => {
+const GamingPage = () => {
     const styles = {
         containerUp: {
             display: 'flex',
-            justifyContent: 'space-between'
+            justifyContent: 'space-between',
         },
         containerLeft: {
             display: 'flex',
@@ -58,54 +58,54 @@ const DesignPage = () => {
                 <div style={styles.containerLeft}>
                     <img style={styles.imgCase} src={CasePC} />
                     <div style={styles.detalles}>
-                    <p>Components price: $2755.50</p>
+                    <p>Components price: $2322</p>
                     <p>Build price: $99</p>
                     </div>
                 </div>
                 <div style={styles.containerRight}>
                 <div style={styles.box}>
                     <img style={styles.img} src={cpuImage}/>
-                    <p>AMD Ryzen 7950x</p>
-                    <p>$599</p>
+                    <p>INTEL CORE I7-12700F</p>
+                    <p>$359</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={ramImage}/>
-                    <p>Gigabyte 32gb x4 3600hz</p>
-                    <p>$280</p>
+                    <p>Corsair RAM 16GB x2 3600hz</p>
+                    <p>$160</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={gpuImage}/>
-                    <p>Nvidia Quadro</p>
-                    <p>$800</p>
+                    <p>Nvidia RTX 4070 msi 12vram</p>
+                    <p>$999</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={fuenteImage}/>
-                    <p>Corsair CX1200w</p>
-                    <p>$450</p>
+                    <p>Gigabyte HW-750 GOLD</p>
+                    <p>$125</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={caseImage}/>
-                    <p>Desing PC case</p>
-                    <p>$50</p>
+                    <p>NZTX GamingCase A2931 RGB</p>
+                    <p>$99</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={mbImage}/>
-                    <p>ASUS x570 AM5</p>
+                    <p>Aorus z690 master model</p>
                     <p>$450</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={soImage}/>
-                    <p>Windows 11 pro</p>
-                    <p>$29.5</p>
+                    <p>Windows 10 home</p>
+                    <p>$30</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={refrigeracionImage}/>
-                    <p>Desing refrigeration</p>
-                    <p>$97</p>
+                    <p>NZTX liquid refrigeration RGB</p>
+                    <p>$100</p>
                 </div>
                 </div>
             </div>
         )
 }
 
-export default DesignPage
+export default GamingPage

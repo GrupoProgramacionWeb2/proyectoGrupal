@@ -1,18 +1,18 @@
-import cpuImage from "../../../assets/productos/cpu.jpg";
-import ramImage from "../../../assets/productos/ram.png";
-import gpuImage from "../../../assets/productos/gpu.jpg";
-import fuenteImage from "../../../assets/productos/fuente.jpg";
-import caseImage from "../../../assets/productos/case.jpg";
-import mbImage from "../../../assets/productos/mb.jpg";
-import soImage from "../../../assets/productos/so.png";
-import refrigeracionImage from "../../../assets/productos/refrigeracion.jpg";
-import CasePC from "../../../assets/productos/CasePC.jpg";
+import cpuImage from "../../assets/productos/cpu.jpg";
+import ramImage from "../../assets/productos/ram.png";
+import gpuImage from "../../assets/productos/gpu.jpg";
+import fuenteImage from "../../assets/productos/fuente.jpg";
+import caseImage from "../../assets/productos/case.jpg";
+import mbImage from "../../assets/productos/mb.jpg";
+import soImage from "../../assets/productos/so.png";
+import refrigeracionImage from "../../assets/productos/refrigeracion.jpg";
+import CasePC from "../../assets/productos/CasePCOffice.jpg";
 
-const GamingPage = () => {
+const OfficePage = () => {
     const styles = {
         containerUp: {
             display: 'flex',
-            justifyContent: 'space-between',
+            justifyContent: 'space-between'
         },
         containerLeft: {
             display: 'flex',
@@ -58,54 +58,55 @@ const GamingPage = () => {
                 <div style={styles.containerLeft}>
                     <img style={styles.imgCase} src={CasePC} />
                     <div style={styles.detalles}>
-                    <p>Components price: $2322</p>
+                    <p>Components price: $505</p>
                     <p>Build price: $99</p>
                     </div>
                 </div>
                 <div style={styles.containerRight}>
                 <div style={styles.box}>
                     <img style={styles.img} src={cpuImage}/>
-                    <p>INTEL CORE I7-12700F</p>
-                    <p>$359</p>
+                    <p>AMD Ryzen 2400g</p>
+                    <p>$50</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={ramImage}/>
-                    <p>Corsair RAM 16GB x2 3600hz</p>
-                    <p>$160</p>
+                    <p>Gigabyte 8gb x1 2500hz</p>
+                    <p>$25</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={gpuImage}/>
-                    <p>Nvidia RTX 4070 msi 12vram</p>
-                    <p>$999</p>
+                    <p>Nvidia gtx980 4vram</p>
+                    <p>$250</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={fuenteImage}/>
-                    <p>Gigabyte HW-750 GOLD</p>
-                    <p>$125</p>
+                    <p>Gigabyte 250hd</p>
+                    <p>$45</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={caseImage}/>
-                    <p>NZTX GamingCase A2931 RGB</p>
-                    <p>$99</p>
+                    <p>Office Case</p>
+                    <p>$25</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={mbImage}/>
-                    <p>Aorus z690 master model</p>
-                    <p>$450</p>
+                    <p>ASUS x270 AM4</p>
+                    <p>$50</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={soImage}/>
-                    <p>Windows 10 home</p>
-                    <p>$30</p>
+                    <p>Windows XP</p>
+                    <p>$10</p>
                 </div>
                 <div style={styles.box}>
                     <img style={styles.img} src={refrigeracionImage}/>
-                    <p>NZTX liquid refrigeration RGB</p>
-                    <p>$100</p>
+                    <p>AirGeneric</p>
+                    <p>$50</p>
                 </div>
                 </div>
             </div>
         )
+    
 }
 
-export default GamingPage
+export default OfficePage

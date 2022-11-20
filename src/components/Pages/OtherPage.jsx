@@ -1,12 +1,12 @@
-import cpuImage from "../../../assets/productos/cpu.jpg";
-import ramImage from "../../../assets/productos/ram.png";
-import gpuImage from "../../../assets/productos/gpu.jpg";
-import fuenteImage from "../../../assets/productos/fuente.jpg";
-import caseImage from "../../../assets/productos/case.jpg";
-import mbImage from "../../../assets/productos/mb.jpg";
-import soImage from "../../../assets/productos/so.png";
-import refrigeracionImage from "../../../assets/productos/refrigeracion.jpg";
-import CasePC from "../../../assets/productos/CasePCOther.jpg";
+import cpuImage from "../../assets/productos/cpu.jpg";
+import ramImage from "../../assets/productos/ram.png";
+import gpuImage from "../../assets/productos/gpu.jpg";
+import fuenteImage from "../../assets/productos/fuente.jpg";
+import caseImage from "../../assets/productos/case.jpg";
+import mbImage from "../../assets/productos/mb.jpg";
+import soImage from "../../assets/productos/so.png";
+import refrigeracionImage from "../../assets/productos/refrigeracion.jpg";
+import CasePC from "../../assets/productos/CasePCOther.jpg";
 
 const OtherPage = () => {
 const styles = {

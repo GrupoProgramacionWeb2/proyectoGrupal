@@ -1,9 +1,9 @@
-import gaming from '../../../assets/categorias/codigo.JPG';
-import desing from '../../../assets/categorias/diseno.JPG';
-import coding from '../../../assets/categorias/codigo.JPG';
-import rendering from '../../../assets/categorias/renderizacion.JPG';
-import office from '../../../assets/categorias/personas.JPG';
-import other from '../../../assets/categorias/otros.JPG';
+import gaming from '../../assets/categorias/codigo.JPG';
+import desing from '../../assets/categorias/diseno.JPG';
+import coding from '../../assets/categorias/codigo.JPG';
+import rendering from '../../assets/categorias/renderizacion.JPG';
+import office from '../../assets/categorias/personas.JPG';
+import other from '../../assets/categorias/otros.JPG';
 
 
 const Opciones = () => {
