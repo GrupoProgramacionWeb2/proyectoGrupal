@@ -3,7 +3,7 @@ import lupa from '../../../assets/imgnav/lupa.png';
 import perfil from '../../../assets/imgnav/perfil.png';
 import carrito from '../../../assets/imgnav/carrito.png';
 
-const navBar = () => {
+const NavBar = () => {
 const styles = {
     header: {
         backgroundColor: 'rgb(52, 63, 75)',
@@ -60,4 +60,4 @@ const styles = {
     )
 }
 
-export default navBar;
+export default NavBar;

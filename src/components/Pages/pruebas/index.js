@@ -1,3 +1,3 @@
-import pruebaPage from './pruebaPage.jsx';
+import PruebaPage from './PruebaPage.jsx';
 
-export default pruebaPage;
+export default PruebaPage;

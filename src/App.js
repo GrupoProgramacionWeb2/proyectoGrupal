@@ -8,7 +8,8 @@ import LayoutCoding from "./components/Layout/Tercero/LayoutCoding";
 import LayoutRendering from "./components/Layout/Tercero/LayoutRendering";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NotFound from "./components/Pages/PagesError/NotFound";
-import pruebaPage from "./components/Pages/pruebas";
+import PruebaPage from "./components/Pages/Pruebas/PruebaPage";
+
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <Route path="opciones/rendering" element={<LayoutRendering/>}/>
           <Route path="opciones/office" element={<LayoutOffice/>}/>
           <Route path="opciones/other" element={<LayoutOther/>}/>
-          <Route path="prueba" element={<pruebaPage/>}/>
+          <Route path="prueba" element={<PruebaPage/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Routes>
       </Router>

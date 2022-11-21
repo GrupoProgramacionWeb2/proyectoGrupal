@@ -1,11 +1,11 @@
-import navBar from "../../Common/Header/navBar";
+import NavBar from "../../Common/Header/NavBar";
 
-const pruebaPage = () => {
+const PruebaPage = () => {
     return (
         <div>
-            <navBar/>
+            <NavBar/>
         </div>
     )
 }
-
-export default pruebaPage;
+        
+export default PruebaPage;
