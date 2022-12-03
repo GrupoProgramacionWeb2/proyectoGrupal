@@ -21,10 +21,8 @@ function App() {
       <header className="App-header">
         {isAuthenticated ? (
           <>
-            
             <BrowserRouter>
               <Header/>
-
                 <Routes>
                   <Route path="/" element={<Layout />}/>
                   <Route path="opciones" element={<Layout2 />}/>
