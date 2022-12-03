@@ -1,3 +1,6 @@
+import React from 'react'
+import Header from "../../Home/Header"
+
 const NotFound = () => {
     const styles = {
         error: {
@@ -10,9 +13,13 @@ const NotFound = () => {
     }
     
     return (
-        <div style={styles.box}>
-            <h1 style={styles.error}>Página no encontrada 404</h1>
-        </div>
+        <>
+            
+
+            <div style={styles.box}>
+                <h1 style={styles.error}>Página no encontrada 404</h1>
+            </div>
+        </>
     )
 }
 
