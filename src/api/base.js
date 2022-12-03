@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const URI = process.env.REACT_APP_BACKENDURI || 'http://localhost:3001';
 
